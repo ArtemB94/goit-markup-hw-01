@@ -36,25 +36,17 @@ color: #404bbf;
 .content-adress {
 font-style: normal;
 }
-.link-nav:hover,
-.link-nav:focus {
-color: #404bbf; 
-}
-.link-mail, .link-tel {
+
+.link-contact {
 font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
 color: #434455;
-
 }
-.link-mail:hover, 
-.link-mail:focus {
-color: #404BBF;
-}
-.link-tel:hover, 
-.link-tel:focus {
+.link-contact:hover, 
+.link-contact:focus {
 color: #404BBF;
 }
 .title-big {
