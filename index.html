@@ -321,8 +321,82 @@
                     </li>
                 </ul>
         </div>
+    <div class="form-footer-container">
+        <p class="form-footer-text">
+            Subscribe
+        </p>
+       <form class="form-footer">
+            <label class="form-footer-label">
+                <input class="field-footer" type="text" name="email" placeholder="E-mail">
+            </label>
+            <button class="form-footer-btn">Subscribe
+                <svg class="form-footer-pic" width="24" height="24">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                </svg>
+            </button>
+       </form>
     </div>
+</div>
 </footer>
 <!-- #endregion footer -->
+
+<!-- #region modal -->
+<div class="modal-overlay">
+    <div class="modal">
+        <form class="form-modal-up">
+            <button class="form-modal-btn" type="button"> 
+            <svg class="pic-modal-up" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        </form>
+        <h4 class="title-modal">Leave your contacts and we will call you back</h4>
+     <form class="form-modal">
+          <div class="wrap-modal">
+              <label class="tag-modal">Name </label>
+               <div class="wrap-modal">
+                    <input class="field-modal" type="text" name="name" >
+                    <svg class="pic-modal pic-modal-person" width="18" height="24">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+               </div>
+          </div>
+          <label class="tag-modal">Phone</label>
+            <div class="wrap-modal">
+                <input class="field-modal" type="text" name="phone">
+                <svg class="pic-modal" width="18" height="24">
+                    <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+            </div>
+          <label class="tag-modal">Email</label>
+            <div class="wrap-modal">
+                <input class="field-modal" type="text" name="email">
+                <svg class="pic-modal" width="18" height="24">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+            </div>
+       <div class="wrap-textarea">
+            <label class="tag-modal">Comment 
+                <textarea class="tag-modal-comment" name="comment" rows="5" placeholder="Text input"> 
+                </textarea>
+            </label>
+       </div>
+     </form>
+     <div class="checkbox">
+            <input class="field-checkbox visually-hidden" id="user-privacy" type="checkbox" name="user-agreement" value="agree">
+        <label class="tag-privacy" for="user-privacy">
+            <span class="span-privacy">
+                <svg class="pic-privacy" width="10" height="8">
+                    <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="privacy-policy" href="">Privacy Policy</a> 
+        </label>
+     </div>
+     <button class="modal-btn" type="submit">Send</button>
+    </div>
+</div>
+<!-- #endregion modal -->
 </body>
 </html>
